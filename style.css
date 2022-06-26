@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+}
+.logo img{
+    width: 15%;
+    height: 15%;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.nav-list{
+width: 50%;
+background-color: chartreuse;
+display: flex;
+align-items: center;
+}
+.nav-list li{
+list-style: none;
+padding: 30px;
+}
+.nav-list li a:hover{
+text-decoration: none;
+color: azure;
+}
+.rightnav{
+    align-items: flex-end;
+    background-color: blueviolet;
+    width: 50%;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid red;
+    border-radius: 9px;
+}
